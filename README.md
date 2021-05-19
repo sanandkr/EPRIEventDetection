@@ -1,4 +1,4 @@
 # EPRI_EventDetection
 Anomaly-aware Compressive Sampler (ACS), our compression algorithm for electrical signal data operates by identifying events and adjusting the sampling frequency "locally" in the absence of high frequency events. Here, we exhibit the result of the anomaly detection block of the algorithm executed on the publicly available DOE/EPRI National Database Repository of Power System Events data. Circles mark the blocks where the algorithm detects events. The parameters of the algorithm are prespecified for a given sampling frequency.
 
-The folder eventFig_x comprises files with data colleted at sampling frequency roughly x Hertz. For example, eventFig_15k contains files with sampling frequencies roughly 15000 Hz. The exact sampling frequency and data for each file is available at https://pqmon.epri.com/.
+The folder eventFig_x comprises files with data collected at sampling frequency roughly x Hertz. For example, eventFig_15k contains files with sampling frequency roughly 15000 Hz. The exact sampling frequency and data for each file is available at https://pqmon.epri.com/.
